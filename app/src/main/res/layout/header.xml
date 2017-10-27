@@ -2,7 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="140dp"
-    android:background="@mipmap/school">
+    android:layout_height="230dp"
+    android:background="@mipmap/school2"
+    android:padding="20dp">
+
+    <ImageView
+        android:src="@mipmap/profile"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chutku"
+        android:textColor="@color/darkBlue"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chutku@gmail.com"
+        android:textColor="@color/darkBlue"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
 
 </LinearLayout>

@@ -8,6 +8,7 @@
     tools:context="in.vknkt.schoolapp.MainActivity">
 
    <LinearLayout
+       android:background="@mipmap/school"
        android:layout_width="match_parent"
        android:layout_height="match_parent">
 
